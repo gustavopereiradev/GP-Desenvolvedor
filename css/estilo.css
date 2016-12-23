@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700');
+
+
+
+.home-sections {
+  font-family: 'Fira Sans' sans-serif;
+  padding: 0px 0px 0px;
+  flex: 1;
+}
+
+.home-sections section {
+  height: 450px;
+  border: 1px solid black;
+}
+
+div.container,
+div.col-md-6 {
+  padding: 0;
+  margin: 0;
+}
+
+div.row {
+  margin: 0;
+}
+
+div.divisao {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* ============================================= Home Sections ================================================= */
+
+/* ============================================= Sobre ================================================= */
+
+section.sobre {
+  background: #ed145b;
+}
+
+/* ============================================= Web Design ================================================= */
+
+section.webdesign {
+  background: #32004b;
+}
+
+/* ============================================= Banners ================================================= */
+
+section.banners {
+  background: #fff568;
+}
+
+/* ============================================= Flyers ================================================= */
+
+section.flyers {
+  background: #00a651;
+}
+
+/* ============================================= Panfletos ================================================= */
+
+section.panfletos {
+  background: #0072bc;
+  width: 50%;
+}
+
+/* ============================================= Cartao de Visita ================================================= */
+
+section.cartaodevisita {
+  background: #f26522;
+  width: 50%;
+}
+
+/* ============================================= Contato ================================================= */
+
+section.contato {
+  background: #362f2d;
+  display: flex;
+  flex-direction: row;
+}
+
+section.contato p {
+  display: block;
+  margin: auto auto;
+  color: white;
+  font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================MEDIA QUERYS============================================*/
+
+@media all and (max-width: 1100px) {
+
+  section.contato p {
+    font-size: 48px;
+  }
+
+}
+
+
+
+@media all and (max-width: 895px) {
+
+  section.contato p {
+    font-size: 40px;
+  }
+
+}
+
+
+
+@media all and (max-width: 775px) {
+
+  .home-sections {
+    padding: 0;
+  }
+
+  div.divisao {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  /* ============================================= Home Sections ================================================= */
+
+  /* ============================================= Sobre ================================================= */
+
+  section.sobre {
+    background: #ed145b;
+  }
+
+  /* ============================================= Web Design ================================================= */
+
+  section.webdesign {
+    background: #32004b;
+  }
+
+  /* ============================================= Banners ================================================= */
+
+  section.banners {
+    background: #fff568;
+  }
+
+  /* ============================================= Flyers ================================================= */
+
+  section.flyers {
+    background: #00a651;
+  }
+
+  /* ============================================= Panfletos ================================================= */
+
+  section.panfletos {
+    background: #0072bc;
+    width: 100%;
+  }
+
+  /* ============================================= Cartao de Visita ================================================= */
+
+  section.cartaodevisita {
+    background: #f26522;
+    width: 100%;
+  }
+
+  /* ============================================= Contato ================================================= */
+
+  section.contato {
+    background: #362f2d;
+  }
+
+  section.contato p {
+    font-size: 40px;
+  }
+
+
+
+
+}
+
+
+@media all and (max-width: 650px) {
+
+  section.contato p {
+    font-size: 36px;
+  }
+
+}
+
+@media all and (max-width: 575px) {
+
+  section.contato p {
+    font-size: 24px;
+  }
+
+}
+
+@media all and (max-width: 415px) {
+
+  section.contato p {
+    font-size: 18px;
+  }
+
+}
